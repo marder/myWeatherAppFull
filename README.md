@@ -35,3 +35,9 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
 - Przesyłanie danych do backendu przez Wi-Fi
 - Wizualizacja danych w formie wykresów w aplikacji webowej
 - Integracja z MongoDB dla przechowywania odczytów
+
+## 🚀 Jak uruchomić?
+1. Sklonuj repozytorium:
+   ```sh
+   git clone https://github.com/yourusername/myWeatherApp.git
+    ```
