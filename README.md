@@ -68,3 +68,6 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
 
 5. W katalogu Device znajduje się kod przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID), hasła oraz adresu serwera back-girt endowego.
 
+# Uwaga
+
+Niniejsze repozytorium zostało opublikowane dla dociekliwych pasjonatów, którzy w miarę kumają kod i chieliby w niego zerknąć. Zdaję sobie sprawę, że powyższy opis nie stanowi dokumentacji, a jedynie zarys opisu projektu i wymaga on uszczegółowienia.
