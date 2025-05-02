@@ -70,4 +70,4 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
 
 # Uwaga
 
-Niniejsze repozytorium zostało opublikowane dla dociekliwych pasjonatów, którzy w miarę kumają kod i chieliby w niego zerknąć. Zdaję sobie sprawę, że powyższy opis nie stanowi dokumentacji, a jedynie zarys opisu projektu i wymaga on uszczegółowienia.
+Niniejsze repozytorium zostało opublikowane dla dociekliwych pasjonatów, którzy w miarę kumają kod lubią sobie do niego zerknąć. Zdaję sobie sprawę, że powyższy opis nie stanowi dokumentacji, a jedynie zarys opisu projektu i wymaga on uszczegółowienia.
