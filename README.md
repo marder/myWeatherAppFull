@@ -37,7 +37,40 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
 - Integracja z MongoDB dla przechowywania odczytów
 
 ## 🚀 Jak uruchomić?
-1. Sklonuj repozytorium:
+1. Klonowanie repozytorium:
+
    ```sh
-   git clone https://github.com/yourusername/myWeatherApp.git
+   git clone https://github.com/marder/myWeatherAppFull.git
     ```
+
+2. Instalacja i uruchomienie sewera backendowy w trybie deweloperskim:
+
+   ```sh
+   cd Backend
+   npm install
+   npm run dev
+    ```
+2. Instalacja i uruchomienie sewera back-endowy w trybie deweloperskim:
+
+   ```sh
+   cd Backend
+   npm install
+   npm run dev
+    ```
+
+3. Instalacja i uruchomienie front-endu:
+
+   ```sh
+   cd Frontend
+   npm install
+   npm run dev
+    ```
+
+4. Przygotowanie front-endu do publikaCJI:
+
+   ```sh
+   cd Frontend
+   npm run build
+    ```
+
+5. W katalogu Device znajduje się przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID) oraz hasła.

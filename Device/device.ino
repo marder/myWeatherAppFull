@@ -3,9 +3,6 @@
 #include "ArduinoJson.h"
 #include "arduino_secrets.h"
 
-// #include <Arduino_MKRIoTCarrier.h>
-// MKRIoTCarrier carrier;
-
 #include "Seeed_BME280.h"
 #include <Wire.h>
 BME280 bme280;
@@ -24,10 +21,6 @@ unsigned long lastConnectionTime = 0;
 const unsigned long postingInterval = 30L * 60L * 1000L;
 
 void setup() {
-
-  //carrier.withCase();
-  //carrier.noCase();
-  //carrier.begin();
 
   Serial.begin(9600);
   while (!Serial) {

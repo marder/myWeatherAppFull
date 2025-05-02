@@ -41,7 +41,6 @@ async function getTemperature() {
     try {
         const data24 = await axios.get('https://marder.bieda.it/api/24');
         temperature.value = data24.data;
-        //console.log(temperature.value)
         return (temperature.value.temperature)
     } catch (error) {
         console.error('Error fetching data', error);
@@ -52,7 +51,6 @@ async function getHumidity() {
     try {
         const data24 = await axios.get('https://marder.bieda.it/api/24');
         humidity.value = data24.data;
-        //console.log(temperature.value)
         return (humidity.value.humidity)
     } catch (error) {
         console.error('Error fetching data', error);
