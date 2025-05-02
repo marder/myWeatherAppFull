@@ -66,7 +66,7 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
    npm run build
     ```
 
-5. W katalogu Device znajduje się kod przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID), hasła oraz adresu serwera back-girt endowego.
+5. W katalogu Device znajduje się kod przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID), hasła, API KEY oraz adresu serwera back-endowego.
 
 # Uwaga
 
