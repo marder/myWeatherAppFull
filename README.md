@@ -43,14 +43,7 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
    git clone https://github.com/marder/myWeatherAppFull.git
     ```
 
-2. Instalacja i uruchomienie sewera backendowy w trybie deweloperskim:
-
-   ```sh
-   cd Backend
-   npm install
-   npm run dev
-    ```
-2. Instalacja i uruchomienie sewera back-endowy w trybie deweloperskim:
+2. Instalacja i uruchomienie sewera back-endowego w trybie deweloperskim:
 
    ```sh
    cd Backend
@@ -58,7 +51,7 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
    npm run dev
     ```
 
-3. Instalacja i uruchomienie front-endu:
+3. Instalacja i uruchomienie front-endu w trybie deweloperskim:
 
    ```sh
    cd Frontend
@@ -66,11 +59,12 @@ Tak powstał **myWeatherApp**, czyli aplikacja do monitorowania warunków atmosf
    npm run dev
     ```
 
-4. Przygotowanie front-endu do publikaCJI:
+4. Przygotowanie front-endu do publikacji:
 
    ```sh
    cd Frontend
    npm run build
     ```
 
-5. W katalogu Device znajduje się przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID) oraz hasła.
+5. W katalogu Device znajduje się kod przygotowany dla Arduino MKR WiFi 1010 wraz z czujnikiem BME280. Wymagane jest utworzenie pliku arduino_secrets.h zawierającego nazwę Wi-Fi (SSID), hasła oraz adresu serwera back-girt endowego.
+
